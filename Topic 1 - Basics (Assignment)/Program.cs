@@ -15,8 +15,10 @@ namespace Topic_1___Basics__Assignment_
             string firstName = "Angelpreet";
             string favMovie = "The Matrix";
 
+            // SECTION 1: STRING MANIPULATION
+
             // a. Personalized greeting
-            String greeting = $"Hello, I am {firstName}, and I will be going to watch the {favMovie} this afternoon!";
+            String greeting = $"Hello, I am {firstName}, and I will be going to watch {favMovie} this afternoon!";
             Console.WriteLine(greeting.ToLower());
             Console.WriteLine();
 
@@ -29,24 +31,54 @@ namespace Topic_1___Basics__Assignment_
             Console.WriteLine();
 
             // d. Use the .Replace() method
-            Console.WriteLine(favMovie.Replace('A', '@'))
+            Console.WriteLine(favMovie.Replace('A', '@'));
+            Console.WriteLine(favMovie.Replace('E', '3'));
+            Console.WriteLine();
+
+            // SECTION 2: STRING MANIPULATION
+
+            // a. Store a favourite quote in a variable 
+            string favQuote = "Worlds change when eyes meet.";
+            Console.WriteLine(favQuote);
+            Console.WriteLine();
+
+            // b. Deal with lower/upper case problems
+            Console.WriteLine(favQuote.Replace("a", "").Replace("e", "").Replace("u", "").Replace("i", "").Replace("o", "").ToUpper());
+
+            // SECTION 3: ASCII ART
+
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            // a) Print two pictures side by side. (ARRAYS!!!)
+
+            string[] coffeMug =
+            {
+                "─▄▀─▄▀",
+                "──▀──▀",
+                "█▀▀▀▀▀█▄",
+                "█░░░░░█─█",
+                "▀▄▄▄▄▄▀▀"
+            };
+
+            string[] dog =
+            {
+                "██   ██ ██",
+                "██   ██ ██",
+                "███████ ██",
+                "██   ██ ██",
+                "██   ██ ██"
+            };
+
+           for (int = )
 
 
-
+            }
         }
     }
 }
 
 
-//c. Use the .Contains() method to determine whether the movie title (now all capital
-//letters) contains the word “THE” in it. Print out ‘True’, or ‘False’.
-//d. Use the .Replace() method to replace the letter “A” with “@” and “E” with “3”.
-//Once done, print the new string.
 
-//2.Make a variable with an appropriate name that stores your favourite quote from a movie, TV
-//show or song (or any other source you like). The quote must be at least a short sentence.
-//a. Remove all of the vowels from the quote by replacing then with the empty string (“”).
-//b. You must decide how you will deal with capital and lowercase letters.
 //3. Use the internet to find some ASCII art. Have your program print out TWO different ASCII art
 //images.
 //a. For full marks, print out 2 pictures side by side.
