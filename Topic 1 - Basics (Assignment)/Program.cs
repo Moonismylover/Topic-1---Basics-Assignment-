@@ -12,6 +12,9 @@ namespace Topic_1___Basics__Assignment_
         {
             Console.Title = "Topic 1 - Basics (Assignment)";
 
+            Console.WriteLine("Topic 1 - Basics (Assignment)");.
+            Console.WriteLine();
+
             string firstName = "Angelpreet";
             string favMovie = "The Matrix";
 
