@@ -44,6 +44,7 @@ namespace Topic_1___Basics__Assignment_
 
             // b. Deal with lower/upper case problems
             Console.WriteLine(favQuote.Replace("a", "").Replace("e", "").Replace("u", "").Replace("i", "").Replace("o", "").ToUpper());
+            Console.WriteLine();
 
             // SECTION 3: ASCII ART
 
@@ -51,7 +52,7 @@ namespace Topic_1___Basics__Assignment_
 
             // a) Print two pictures side by side. (ARRAYS!!!)
 
-            string[] coffeMug =
+            string[] coffeeMug =
             {
                 "─▄▀─▄▀",
                 "──▀──▀",
@@ -69,10 +70,12 @@ namespace Topic_1___Basics__Assignment_
                 "██   ██ ██"
             };
 
-           for (int = )
+            Console.WriteLine($"{coffeeMug[0]}     {dog[0]}");
+            Console.WriteLine($"{coffeeMug[1]}     {dog[1]}");
+            Console.WriteLine($"{coffeeMug[2]}   {dog[2]}");
+            Console.WriteLine($"{coffeeMug[3]}  {dog[3]}");
+            Console.WriteLine($"{coffeeMug[4]}   {dog[4]}");
 
-
-            }
         }
     }
 }
